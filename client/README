@@ -1,0 +1,92 @@
+ HomeSphere
+
+HomeSphere is a full-stack web application designed to manage property listings, bookings, and user interactions in a simple and structured way. The system allows users to browse listings, make bookings, leave reviews, and upload images, while administrators can manage platform data.
+
+
+
+ Features
+
+- User registration and login
+- Property listing management
+- Booking system
+- Review system
+- Image upload functionality
+- Admin controls for managing users and listings
+
+
+
+ Tech Stack
+
+Frontend: (Add your frontend here – React / HTML / etc.)  
+Backend: Node.js, Express.js  
+Database: MongoDB (Mongoose)
+
+
+ Project Structure
+
+/server
+  ├── routes
+  ├── models
+  ├── controllers (if used)
+  ├── server.js
+  └── seeder.js
+`
+
+
+
+ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone (your repo link)
+   
+
+2. Navigate to the project:
+   ```bash
+   cd HomeSphere
+   
+
+3. Install dependencies:
+   ```bash
+   npm install
+   
+
+4. Start the server:
+   ```bash
+   npm start
+
+
+
+ Environment Variables
+
+Create a `.env` file in the root and add:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_secret_key
+
+
+ Usage
+
+- Users can register and log in
+- Browse and view listings
+- Book properties
+- Leave reviews
+- Admin users can manage data
+
+
+
+ Notes
+
+- `node_modules` is excluded from the repository
+- Run `npm install` after cloning the project
+- Make sure MongoDB is connected before running
+
+
+ Repository
+https://github.com/deizii1981-bot/HomeSphere.git
+
+AuthoR
+ANJALI PATIL 
+TEENA TOM 
+SNEHA SHAJAN
