@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff385c;
+  --color-primary-dark: #d90b36;
+  --color-secondary: #00a699;
+  --color-bg-light: #f7f7f7;
+  --color-text-dark: #222222;
+  --color-text-light: #717171;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-text-dark antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom styles for maps or datepickers if needed */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
